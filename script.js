@@ -1,4 +1,3 @@
-// Enhanced Categories
 const categories = {
     astro: ['🪐', '🌌', '🌠', '🌑', '☄️', '🛸', '🌖', '⭐'],
     geo: ['🗺️', '🗿', '🏯', '🗽', '🏰', '🌋', '🗻', '🏕️'],
@@ -7,7 +6,6 @@ const categories = {
     tech: ['💻', '📱', '🖥️', '⌚', '🎮', '🕹️', '📡', '🔌']
 };
 
-// Game State Manager
 class GameEngine {
     constructor() {
         this.state = {
@@ -110,7 +108,6 @@ class GameEngine {
     }
 }
 
-// UI Event Handlers
 const game = new GameEngine();
 
 document.querySelector('.cta-btn').addEventListener('click', () => {
