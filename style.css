@@ -20,8 +20,6 @@ body {
     line-height: 1.6;
     transition: background 0.3s ease;
 }
-
-/* Welcome Screen */
 .welcome-screen {
     max-width: 1200px;
     margin: 4rem auto;
@@ -63,7 +61,6 @@ body {
     box-shadow: 0 8px 25px rgba(108,92,231,0.3);
 }
 
-/* Instructions */
 .instructions {
     background: rgba(255,255,255,0.05);
     border-radius: 20px;
@@ -88,7 +85,6 @@ body {
     line-height: 1.8;
 }
 
-/* Category Selection */
 .category-selection {
     max-width: 1200px;
     margin: 2rem auto;
@@ -120,7 +116,6 @@ body {
     box-shadow: 0 5px 15px rgba(108,92,231,0.2);
 }
 
-/* Game Interface */
 .game-interface {
     max-width: 1000px;
     margin: 2rem auto;
@@ -157,7 +152,6 @@ body {
     transform: rotateY(180deg) scale(0.95);
 }
 
-/* Outcome Modal */
 .outcome-modal {
     background: rgba(0,0,0,0.9);
     padding: 3rem;
